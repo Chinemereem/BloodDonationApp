@@ -18,8 +18,8 @@ import {
   View,
 } from 'react-native';
 import {BroBg, Group} from '../asset/index';
-import Colors from './Colors';
-import HermesBadge from './HermesBadge';
+import Colors from '../components/Colors';
+import HermesBadge from '../components/HermesBadge';
 import {wp, hp} from '../utils/index';
 
 const Header = () => {
