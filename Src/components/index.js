@@ -9,7 +9,7 @@
  */
 
 import Colors from '../../Src/components/Colors';
-import Header from '../screens/onboarding';
+import Header from '../../onboarding';
 import HermesBadge from '../../Src/components/HermesBadge';
 import listview from '../../Src/components/listview';
 import DebugInstructions from '../../Src/components/DebugInstructions';

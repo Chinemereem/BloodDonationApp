@@ -100,7 +100,8 @@ const Header = ({navigation}) => {
               padding: 5,
               paddingHorizontal: 7,
               alignItems: 'center',
-            }}>
+            }}
+            onPress={() => navigation.navigate('Login')}>
             <Text style={{fontSize: hp(18)}}> LOG IN</Text>
           </TouchableOpacity>
           <TouchableOpacity
