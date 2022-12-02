@@ -9,9 +9,9 @@
  */
 
 import Colors from '../../Src/components/Colors';
-import Header from '../../Src/OnBoarding/Header';
+import Header from '../screens/onboarding';
 import HermesBadge from '../../Src/components/HermesBadge';
-import LearnMoreLinks from '../../Src/components/LearnMoreLinks';
+import listview from '../../Src/components/listview';
 import DebugInstructions from '../../Src/components/DebugInstructions';
 import ReloadInstructions from '../../Src/components/ReloadInstructions';
 
@@ -19,7 +19,7 @@ export {
   Colors,
   Header,
   HermesBadge,
-  LearnMoreLinks,
+  listview,
   DebugInstructions,
   ReloadInstructions,
 };
