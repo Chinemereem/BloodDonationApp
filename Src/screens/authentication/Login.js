@@ -20,9 +20,6 @@ import {TextWithOnpress, RedText} from '../../components/Text';
 const Login = ({navigation}) => {
   const [value, setValue] = useState('');
 
-  const handleBtn = () => {
-    console.log('button pressed');
-  };
   return (
     <SafeAreaView style={[styles.background]}>
       <View style={{marginTop: hp(40)}}>
@@ -61,14 +58,14 @@ const Login = ({navigation}) => {
             <Text style={{fontSize: hp(18), color: '#ffff'}}> LOG IN</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => handleBtn()}
             style={{
               marginTop: hp(30),
 
               padding: 5,
               paddingHorizontal: 10,
               alignItems: 'center',
-            }}>
+            }}
+            onPress={() => navigation.navigate('ForgotPassword')}>
             <Text style={{color: '#FF2156', fontSize: hp(17)}}>
               Forgot Password?
             </Text>
@@ -78,7 +75,7 @@ const Login = ({navigation}) => {
       <TouchableOpacity
         style={{marginTop: hp(120)}}
         onPress={() => navigation.navigate('Register')}>
-        <Text style={{color: '#7E7E7E',fontSize:hp(15)}}>
+        <Text style={{color: '#7E7E7E', fontSize: hp(15)}}>
           Don’t have an account? <RedText>Register Now</RedText>.
         </Text>
       </TouchableOpacity>

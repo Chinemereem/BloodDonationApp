@@ -2,12 +2,15 @@ import React from 'react';
 import {Text, TouchableOpacity} from 'react-native';
 import {hp} from '../utils';
 
-export const RedText = ({title, children}) => {
+export const RedText = ({title, children, style}) => {
   return (
     <Text
-      style={{
-        color: '#FF2156',
-      }}>
+      style={[
+        {
+          color: '#FF2156',
+        },
+        style,
+      ]}>
       {title}
       {children}
     </Text>
