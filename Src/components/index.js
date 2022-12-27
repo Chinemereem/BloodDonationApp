@@ -8,18 +8,10 @@
  * @format
  */
 
-import Colors from '../../Src/components/Colors';
-import Header from '../../onboarding';
+import Colors from './Colors';
 import HermesBadge from '../../Src/components/HermesBadge';
-import listview from '../../Src/components/listview';
-import DebugInstructions from '../../Src/components/DebugInstructions';
+import {HStack} from '../../Src/components/listview';
+
 import ReloadInstructions from '../../Src/components/ReloadInstructions';
 
-export {
-  Colors,
-  Header,
-  HermesBadge,
-  listview,
-  DebugInstructions,
-  ReloadInstructions,
-};
+export {Colors, HermesBadge, HStack, ReloadInstructions};

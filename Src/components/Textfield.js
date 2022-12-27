@@ -3,7 +3,14 @@ import {SafeAreaView, StyleSheet, TextInput} from 'react-native';
 import {EmailIcon} from '../asset/Svg';
 import {hp} from '../utils';
 import {HStack} from './listview';
-const TextField = ({value, onChangeText, placeholder, style, icon}) => {
+const TextField = ({
+  value,
+  onChangeText,
+  placeholder,
+  style,
+  icon,
+  inputStyle,
+}) => {
   return (
     <SafeAreaView>
       <HStack
@@ -19,7 +26,7 @@ const TextField = ({value, onChangeText, placeholder, style, icon}) => {
         ]}>
         {icon}
         <TextInput
-          style={styles.input}
+          style={[styles.input, inputStyle]}
           onChangeText={onChangeText}
           value={value}
           placeholder={placeholder}
