@@ -7,6 +7,9 @@ const Success = require('./success.png');
 const RectanglePng = require('./Rectangle.png');
 const Group63Png = require('./Group63.png');
 const PanaPng = require('./pana.png');
+const HospitalPng = require('./hospital.jpeg');
+const PlistlPng = require('./plist.jpeg');
+const HospitalPlistPng = require('./hospitalplist.jpeg');
 export {
   BroBg,
   Group,
@@ -17,4 +20,7 @@ export {
   RectanglePng,
   Group63Png,
   PanaPng,
+  HospitalPng,
+  PlistlPng,
+  HospitalPlistPng,
 };
